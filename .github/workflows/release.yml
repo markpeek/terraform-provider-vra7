@@ -22,7 +22,7 @@ jobs:
         name: golangci-lint
         uses: golangci/golangci-lint-action@v1
         with:
-          version: v2.2.0
+          version: v2.2
           args: --issues-exit-code=0
       -
         name: Import GPG key
