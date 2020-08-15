@@ -51,4 +51,11 @@ release:
   # Visit your project's GitHub Releases page to publish this release.
   draft: true
 changelog:
-  skip: true
+  sort: asc
+  filters:
+    exclude:
+    - '^docs:'
+    - '^test:'
+    - Merge pull request
+    - Merge branch
+    - go mod tidy
