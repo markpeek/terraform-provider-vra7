@@ -10,6 +10,6 @@ jobs:
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v1
         with:
-          version: v2.2
+          version: v1.30
           args: --issues-exit-code=0
           only-new-issues: true
